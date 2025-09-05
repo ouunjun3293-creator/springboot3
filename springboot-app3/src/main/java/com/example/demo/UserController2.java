@@ -18,7 +18,7 @@ public class UserController2 {
 
     @GetMapping("/")
     public String hello() {
-        return "Spring Boot! Action1";
+        return "Spring Boot! Action2";
     }
 
     @GetMapping("/mysql")
